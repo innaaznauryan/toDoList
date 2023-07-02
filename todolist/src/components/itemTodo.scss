@@ -1,0 +1,42 @@
+.item {
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: lightblue;
+    .controls{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        svg {
+            cursor: pointer;
+            font-size: 20px;
+            transition: all .5s;
+        }
+        .complete {
+            color: darkgreen;
+            &:hover {
+                color: rgb(0, 46, 0);
+            }
+        }
+        .delete {
+            color: brown;
+            &:hover{
+                color: rgb(108, 28, 28);
+            }
+        }
+        .edit {
+            color: orange;
+            &:hover{
+                color: rgb(171, 112, 2);
+            }
+        }
+    }
+}
+.completed {
+    background-color: limegreen;
+    h3 {
+        text-decoration: line-through;
+    }
+}
