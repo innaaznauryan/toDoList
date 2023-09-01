@@ -1,1 +1,15 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c3179b9f-7c9b-4e42-b736-b68b6e16f7d7/deploy-status)](https://app.netlify.com/sites/shimmering-bombolone-126d70/deploys)
+# To do list
+
+This is my To-do list application developed in React.js that includes functionality for adding, removing, and modifying to-do items.
+
+### How to run the project
+
+* Clone the repo `git clone https://github.com/innaaznauryan/toDoList`
+
+* Navigate to the directory: `cd toDoList`
+
+* Install npm packages: `npm install`
+
+* Run the Project: `npm run dev`
+
+  Have fun!
